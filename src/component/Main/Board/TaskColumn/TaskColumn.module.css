@@ -1,0 +1,39 @@
+.column {
+    display: block;
+    width: 282px;
+    padding: 12px 0 7px 12px;
+    background: #EBECF0;
+    border-radius: 10px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.column h3 {
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize
+}
+
+.tasks__wrapper {
+    max-height: 400px;
+    overflow: auto;
+    scrollbar-color:  #CBCBCB #FFFFFF;
+}
+
+.tasks__wrapper::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+}
+
+.tasks__wrapper::-webkit-scrollbar-thumb { /* плашка-бегунок */
+    background: #CBCBCB;
+    border-radius: 5px;
+}
+
+.tasks__wrapper::-webkit-scrollbar-track { /* фон */
+    background: #FFFFFF;
+}
